@@ -16134,7 +16134,7 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 </part>
 <part name="IC1" library="maxim" deviceset="MAX481CSA" device="" value="MAX1487EESA+">
 <attribute name="MF" value="MAXIM INTEGRATED PRODUCTS"/>
-<attribute name="MPN" value="MAX1487EESA+"/>
+<attribute name="MPN" value="MAX1487EESA+."/>
 <attribute name="OC_FARNELL" value="1593310"/>
 <attribute name="PARTNO" value="MAX481CSA"/>
 </part>
@@ -16169,145 +16169,145 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 </part>
 <part name="R11" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R12" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R13" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R14" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R15" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R16" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R17" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R18" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R19" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R20" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R21" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R22" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R23" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R24" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R25" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R26" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R27" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R28" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R29" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R30" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R31" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R32" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R33" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
 <part name="R34" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="2.2k">
 <attribute name="MF" value="YAGEO (PHYCOMP)"/>
-<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L."/>
 <attribute name="OC_FARNELL" value="9238522"/>
 <attribute name="PARTNO" value="SMD-0603 2,2K"/>
 </part>
@@ -16462,6 +16462,11 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <attribute name="OC_FARNELL" value="1625106"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
+<part name="R1" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -16863,6 +16868,11 @@ des Banana Pro!</text>
 </instance>
 <instance part="GND1" gate="1" x="81.28" y="160.02" smashed="yes">
 <attribute name="VALUE" x="78.74" y="157.48" size="1.778" layer="96"/>
+</instance>
+<instance part="R1" gate="G$1" x="274.32" y="147.32">
+<attribute name="OC_FARNELL" x="274.32" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="274.32" y="147.32" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="274.32" y="147.32" size="1.27" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
