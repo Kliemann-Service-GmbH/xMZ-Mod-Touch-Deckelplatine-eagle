@@ -6901,8 +6901,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pad name="18" x="8.89" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="19" x="11.43" y="-1.27" drill="1.016" shape="octagon"/>
 <pad name="20" x="11.43" y="1.27" drill="1.016" shape="octagon"/>
-<text x="-12.7" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-12.7" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-16.2" y="5.675" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-16.2" y="-6.945" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-11.684" y1="-1.524" x2="-11.176" y2="-1.016" layer="51"/>
 <rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51"/>
 <rectangle x1="-9.144" y1="1.016" x2="-8.636" y2="1.524" layer="51"/>
@@ -6923,9 +6923,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <rectangle x1="8.636" y1="-1.524" x2="9.144" y2="-1.016" layer="51"/>
 <rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51"/>
 <rectangle x1="11.176" y1="-1.524" x2="11.684" y2="-1.016" layer="51"/>
-<wire x1="-14.3" y1="-1" x2="-14.3" y2="-2" width="0.127" layer="21" style="dashdot"/>
-<wire x1="-14.3" y1="-2" x2="-13.3" y2="-1.5" width="0.127" layer="21" style="dashdot"/>
-<wire x1="-13.3" y1="-1.5" x2="-14.3" y2="-1" width="0.127" layer="21"/>
+<wire x1="-18.84" y1="-3" x2="-18.84" y2="-4" width="0.127" layer="21" style="dashdot"/>
+<wire x1="-18.84" y1="-4" x2="-17.84" y2="-3.5" width="0.127" layer="21" style="dashdot"/>
+<wire x1="-17.84" y1="-3.5" x2="-18.84" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2" y1="-4.6" x2="2" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="16.5" y1="-4.6" x2="16.5" y2="4.6" width="0.4064" layer="21"/>
+<wire x1="16.5" y1="4.6" x2="-16.5" y2="4.6" width="0.4064" layer="21"/>
+<wire x1="-16.5" y1="4.6" x2="-16.5" y2="-4.6" width="0.4064" layer="21"/>
+<wire x1="-16.5" y1="-4.6" x2="-2" y2="-4.6" width="0.4064" layer="21"/>
+<wire x1="2" y1="-4.6" x2="16.5" y2="-4.6" width="0.4064" layer="21"/>
 </package>
 <package name="2X10/90">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
@@ -16105,7 +16111,7 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 </classes>
 <parts>
 <part name="FRAME1" library="RA-GAS Projekte LTD" deviceset="A3L-LOC-RA-GAS" device="" value="zzeroo systems"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-2X20" device="" value="''">
+<part name="JP1" library="pinhead" deviceset="PINHD-2X20" device="">
 <attribute name="DNP" value="T"/>
 <attribute name="MF" value="HARWIN"/>
 <attribute name="MPN" value="M20-6112045"/>
@@ -16467,16 +16473,36 @@ CatalogNumber: &lt;b&gt;0111 0005MR&lt;/b&gt;
 <attribute name="MPN" value="CPF0603B10KE1"/>
 <attribute name="OC_FARNELL" value="1697388"/>
 </part>
+<part name="R2" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R3" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R4" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
+<part name="R5" library="RA-GAS Projekte LTD" deviceset="R-EU_" device="R0603" value="10k">
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM"/>
+<attribute name="MPN" value="CPF0603B10KE1"/>
+<attribute name="OC_FARNELL" value="1697388"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="327.66" y="119.38" size="1.778" layer="94" font="vector" ratio="12">Connector Relais/ BUS</text>
 <text x="27.4574" y="113.4872" size="1.778" layer="94" font="vector" ratio="12">Connector Banana Pro</text>
-<text x="177.5206" y="99.2886" size="1.4224" layer="91" ratio="12">RS-485</text>
-<text x="179.0446" y="82.0166" size="1.4224" layer="95" ratio="12" rot="R180">Termination</text>
-<text x="178.0286" y="84.5566" size="1.4224" layer="95" ratio="12" rot="R180">(optional)</text>
-<text x="133.3246" y="117.5766" size="1.778" layer="94" font="vector" ratio="12">Modbus Transceiver</text>
+<text x="190.2206" y="91.6686" size="1.4224" layer="91" ratio="12">RS-485</text>
+<text x="191.7446" y="74.3966" size="1.4224" layer="95" ratio="12" rot="R180">Termination</text>
+<text x="190.7286" y="76.9366" size="1.4224" layer="95" ratio="12" rot="R180">(optional)</text>
+<text x="146.0246" y="109.9566" size="1.778" layer="94" font="vector" ratio="12">Modbus Transceiver</text>
 <text x="350.52" y="228.6" size="1.778" layer="94" font="vector" ratio="12">Connector LED</text>
 <text x="281.94" y="246.38" size="1.778" layer="94" font="vector" ratio="12">Control LED</text>
 <text x="271.78" y="119.38" size="1.778" layer="94" font="vector" ratio="12">Control Relais</text>
@@ -16513,35 +16539,35 @@ des Banana Pro!</text>
 <attribute name="DNP" x="337.82" y="101.6" size="1.778" layer="96" display="off"/>
 <attribute name="OC_FARNELL" x="337.82" y="101.6" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="GND4" gate="1" x="148.5646" y="51.5366" smashed="yes">
-<attribute name="VALUE" x="146.0246" y="48.9966" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="123.1646" y="82.0166" smashed="yes">
+<attribute name="VALUE" x="120.6246" y="79.4766" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="143.4846" y="64.2366" smashed="yes" rot="MR0">
-<attribute name="NAME" x="141.9606" y="64.6176" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="141.9606" y="59.5376" size="1.778" layer="96" rot="MR0"/>
-<attribute name="OC_FARNELL" x="143.4846" y="64.2366" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="143.4846" y="64.2366" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="143.4846" y="64.2366" size="1.778" layer="96" display="off"/>
+<instance part="C3" gate="G$1" x="118.0846" y="94.7166" smashed="yes" rot="MR0">
+<attribute name="NAME" x="116.5606" y="95.0976" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="116.5606" y="90.0176" size="1.778" layer="96" rot="MR0"/>
+<attribute name="OC_FARNELL" x="118.0846" y="94.7166" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="118.0846" y="94.7166" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="118.0846" y="94.7166" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R10" gate="G$1" x="179.0446" y="92.1766" smashed="yes">
-<attribute name="NAME" x="177.7746" y="90.678" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="180.3146" y="88.8746" size="1.778" layer="96"/>
-<attribute name="PARTNO" x="179.0446" y="92.1766" size="1.778" layer="96"/>
-<attribute name="OC_FARNELL" x="179.0446" y="92.1766" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="179.0446" y="92.1766" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="179.0446" y="92.1766" size="1.778" layer="96" display="off"/>
+<instance part="R10" gate="G$1" x="191.7446" y="84.5566" smashed="yes">
+<attribute name="NAME" x="190.4746" y="83.058" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="193.0146" y="81.2546" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="191.7446" y="84.5566" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="191.7446" y="84.5566" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="191.7446" y="84.5566" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="191.7446" y="84.5566" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IC1" gate="G$1" x="148.5646" y="99.7966" smashed="yes">
-<attribute name="NAME" x="138.4046" y="113.7666" size="1.778" layer="95"/>
-<attribute name="VALUE" x="138.4046" y="84.5566" size="1.778" layer="96"/>
+<instance part="IC1" gate="G$1" x="161.2646" y="92.1766" smashed="yes">
+<attribute name="NAME" x="151.1046" y="106.1466" size="1.778" layer="95"/>
+<attribute name="VALUE" x="151.1046" y="76.9366" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="P" x="148.5646" y="64.2366"/>
-<instance part="JP2" gate="A" x="168.8846" y="89.6366" smashed="yes" rot="R180">
-<attribute name="NAME" x="165.0746" y="84.3026" size="1.778" layer="95"/>
-<attribute name="VALUE" x="163.1696" y="89.6366" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_FARNELL" x="168.8846" y="89.6366" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="168.8846" y="89.6366" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="168.8846" y="89.6366" size="1.778" layer="96" display="off"/>
+<instance part="IC1" gate="P" x="123.1646" y="94.7166"/>
+<instance part="JP2" gate="A" x="181.5846" y="82.0166" smashed="yes" rot="R180">
+<attribute name="NAME" x="177.7746" y="76.6826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="175.8696" y="82.0166" size="1.778" layer="96" rot="R270"/>
+<attribute name="OC_FARNELL" x="181.5846" y="82.0166" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="181.5846" y="82.0166" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="181.5846" y="82.0166" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC4" gate="A" x="292.1" y="226.06">
 <attribute name="OC_FARNELL" x="292.1" y="226.06" size="1.778" layer="96" display="off"/>
@@ -16692,8 +16718,8 @@ des Banana Pro!</text>
 <attribute name="MPN" x="281.94" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC4" gate="P" x="254" y="220.98"/>
-<instance part="IC2" gate="P" x="246.38" y="93.98"/>
-<instance part="IC3" gate="P" x="246.38" y="60.96"/>
+<instance part="IC2" gate="P" x="241.3" y="93.98"/>
+<instance part="IC3" gate="P" x="241.3" y="60.96"/>
 <instance part="IC6" gate="P" x="254" y="149.86"/>
 <instance part="IC5" gate="P" x="254" y="185.42"/>
 <instance part="U1" gate="G$1" x="172.72" y="228.6">
@@ -16741,11 +16767,11 @@ des Banana Pro!</text>
 <instance part="GND10" gate="1" x="254" y="137.16" smashed="yes">
 <attribute name="VALUE" x="251.46" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="246.38" y="81.28" smashed="yes">
-<attribute name="VALUE" x="243.84" y="78.74" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="241.3" y="81.28" smashed="yes">
+<attribute name="VALUE" x="238.76" y="78.74" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="246.38" y="48.26" smashed="yes">
-<attribute name="VALUE" x="243.84" y="45.72" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="241.3" y="48.26" smashed="yes">
+<attribute name="VALUE" x="238.76" y="45.72" size="1.778" layer="96"/>
 </instance>
 <instance part="C10" gate="G$1" x="246.38" y="185.42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="244.856" y="185.801" size="1.778" layer="95" rot="MR0"/>
@@ -16761,19 +16787,19 @@ des Banana Pro!</text>
 <attribute name="MF" x="248.92" y="149.86" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="248.92" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="241.3" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="239.776" y="94.361" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="239.776" y="89.281" size="1.778" layer="96" rot="MR0"/>
-<attribute name="OC_FARNELL" x="241.3" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="241.3" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="241.3" y="93.98" size="1.778" layer="96" display="off"/>
+<instance part="C7" gate="G$1" x="236.22" y="93.98" smashed="yes" rot="MR0">
+<attribute name="NAME" x="234.696" y="94.361" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="234.696" y="89.281" size="1.778" layer="96" rot="MR0"/>
+<attribute name="OC_FARNELL" x="236.22" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="236.22" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="236.22" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C8" gate="G$1" x="241.3" y="60.96" smashed="yes" rot="MR0">
-<attribute name="NAME" x="239.776" y="61.341" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="239.776" y="56.261" size="1.778" layer="96" rot="MR0"/>
-<attribute name="OC_FARNELL" x="241.3" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="241.3" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="241.3" y="60.96" size="1.778" layer="96" display="off"/>
+<instance part="C8" gate="G$1" x="236.22" y="60.96" smashed="yes" rot="MR0">
+<attribute name="NAME" x="234.696" y="61.341" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="234.696" y="56.261" size="1.778" layer="96" rot="MR0"/>
+<attribute name="OC_FARNELL" x="236.22" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="236.22" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="236.22" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="172.72" y="203.2" smashed="yes">
 <attribute name="VALUE" x="170.18" y="200.66" size="1.778" layer="96"/>
@@ -16874,6 +16900,26 @@ des Banana Pro!</text>
 <attribute name="MF" x="274.32" y="147.32" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="274.32" y="147.32" size="1.27" layer="96" display="off"/>
 </instance>
+<instance part="R2" gate="G$1" x="274.32" y="182.88">
+<attribute name="OC_FARNELL" x="274.32" y="182.88" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="274.32" y="182.88" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="274.32" y="182.88" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R3" gate="G$1" x="274.32" y="218.44">
+<attribute name="OC_FARNELL" x="274.32" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="274.32" y="218.44" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="274.32" y="218.44" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="264.16" y="93.98">
+<attribute name="OC_FARNELL" x="264.16" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="264.16" y="93.98" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="264.16" y="93.98" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="264.16" y="58.42">
+<attribute name="OC_FARNELL" x="264.16" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="264.16" y="58.42" size="1.27" layer="96" display="off"/>
+<attribute name="MPN" x="264.16" y="58.42" size="1.27" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16898,11 +16944,11 @@ des Banana Pro!</text>
 <segment>
 <pinref part="IC1" gate="P" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="148.5646" y1="56.6166" x2="148.5646" y2="54.0766" width="0.1524" layer="91"/>
+<wire x1="123.1646" y1="87.0966" x2="123.1646" y2="84.5566" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="143.4846" y1="59.1566" x2="143.4846" y2="56.6166" width="0.1524" layer="91"/>
-<wire x1="143.4846" y1="56.6166" x2="148.5646" y2="56.6166" width="0.1524" layer="91"/>
-<junction x="148.5646" y="56.6166"/>
+<wire x1="118.0846" y1="89.6366" x2="118.0846" y2="87.0966" width="0.1524" layer="91"/>
+<wire x1="118.0846" y1="87.0966" x2="123.1646" y2="87.0966" width="0.1524" layer="91"/>
+<junction x="123.1646" y="87.0966"/>
 </segment>
 <segment>
 <wire x1="172.72" y1="210.82" x2="205.74" y2="210.82" width="0.1524" layer="91"/>
@@ -16939,20 +16985,20 @@ des Banana Pro!</text>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="IC3" gate="P" pin="GND"/>
-<wire x1="246.38" y1="50.8" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="50.8" x2="241.3" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="50.8" x2="241.3" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="50.8" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
-<junction x="246.38" y="50.8"/>
+<wire x1="241.3" y1="50.8" x2="236.22" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="50.8" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
+<junction x="241.3" y="50.8"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="IC2" gate="P" pin="GND"/>
-<wire x1="246.38" y1="83.82" x2="246.38" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="83.82" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="86.36" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
-<junction x="246.38" y="86.36"/>
+<wire x1="241.3" y1="86.36" x2="236.22" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="86.36" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
+<junction x="241.3" y="86.36"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -17066,12 +17112,12 @@ des Banana Pro!</text>
 </segment>
 <segment>
 <pinref part="IC2" gate="P" pin="VCC"/>
-<wire x1="246.38" y1="101.6" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="101.6" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="96.52" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="101.6" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
-<label x="246.38" y="104.14" size="1.27" layer="95" xref="yes"/>
-<junction x="246.38" y="101.6"/>
+<wire x1="236.22" y1="96.52" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="101.6" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
+<label x="241.3" y="104.14" size="1.27" layer="95" xref="yes"/>
+<junction x="241.3" y="101.6"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="P" pin="VCC"/>
@@ -17093,12 +17139,12 @@ des Banana Pro!</text>
 </segment>
 <segment>
 <pinref part="IC3" gate="P" pin="VCC"/>
-<wire x1="246.38" y1="68.58" x2="246.38" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="68.58" x2="241.3" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="241.3" y1="63.5" x2="241.3" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
-<junction x="246.38" y="68.58"/>
-<label x="246.38" y="71.12" size="1.27" layer="95" xref="yes"/>
+<wire x1="236.22" y1="63.5" x2="236.22" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="68.58" x2="241.3" y2="68.58" width="0.1524" layer="91"/>
+<junction x="241.3" y="68.58"/>
+<label x="241.3" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="SCL"/>
@@ -17141,11 +17187,11 @@ des Banana Pro!</text>
 <segment>
 <pinref part="IC1" gate="P" pin="VCC"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="143.4846" y1="66.7766" x2="143.4846" y2="71.8566" width="0.1524" layer="91"/>
-<wire x1="143.4846" y1="71.8566" x2="148.5646" y2="71.8566" width="0.1524" layer="91"/>
-<wire x1="148.5646" y1="71.8566" x2="148.5646" y2="74.3966" width="0.1524" layer="91"/>
-<junction x="148.5646" y="71.8566"/>
-<label x="148.5646" y="74.3966" size="1.27" layer="95" xref="yes"/>
+<wire x1="118.0846" y1="97.2566" x2="118.0846" y2="102.3366" width="0.1524" layer="91"/>
+<wire x1="118.0846" y1="102.3366" x2="123.1646" y2="102.3366" width="0.1524" layer="91"/>
+<wire x1="123.1646" y1="102.3366" x2="123.1646" y2="104.8766" width="0.1524" layer="91"/>
+<junction x="123.1646" y="102.3366"/>
+<label x="123.1646" y="104.8766" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="P" pin="VCC"/>
@@ -17164,18 +17210,43 @@ des Banana Pro!</text>
 <junction x="35.56" y="144.78"/>
 <label x="30.48" y="144.78" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="147.32" x2="266.7" y2="147.32" width="0.1524" layer="91"/>
+<label x="266.7" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="182.88" x2="266.7" y2="182.88" width="0.1524" layer="91"/>
+<label x="266.7" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="218.44" x2="266.7" y2="218.44" width="0.1524" layer="91"/>
+<label x="266.7" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="93.98" x2="256.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="256.54" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="58.42" x2="256.54" y2="58.42" width="0.1524" layer="91"/>
+<label x="256.54" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RTS" class="0">
 <segment>
-<wire x1="135.8646" y1="97.2566" x2="128.2446" y2="97.2566" width="0.1524" layer="91"/>
-<junction x="128.2446" y="97.2566"/>
+<wire x1="148.5646" y1="89.6366" x2="140.9446" y2="89.6366" width="0.1524" layer="91"/>
+<junction x="140.9446" y="89.6366"/>
 <pinref part="IC1" gate="G$1" pin="DE"/>
-<wire x1="135.8646" y1="102.3366" x2="128.2446" y2="102.3366" width="0.1524" layer="91"/>
-<junction x="128.2446" y="102.3366"/>
+<wire x1="148.5646" y1="94.7166" x2="140.9446" y2="94.7166" width="0.1524" layer="91"/>
+<junction x="140.9446" y="94.7166"/>
 <pinref part="IC1" gate="G$1" pin="RE/"/>
-<wire x1="128.2446" y1="97.2566" x2="128.2446" y2="102.3366" width="0.1524" layer="91"/>
-<wire x1="128.2446" y1="102.3366" x2="125.7046" y2="102.3366" width="0.1524" layer="91"/>
-<label x="125.7046" y="102.3366" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="140.9446" y1="89.6366" x2="140.9446" y2="94.7166" width="0.1524" layer="91"/>
+<wire x1="140.9446" y1="94.7166" x2="138.4046" y2="94.7166" width="0.1524" layer="91"/>
+<label x="138.4046" y="94.7166" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="21"/>
@@ -17190,14 +17261,14 @@ des Banana Pro!</text>
 <label x="350.52" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="161.2646" y1="97.2566" x2="186.6646" y2="97.2566" width="0.1524" layer="91"/>
-<wire x1="186.6646" y1="97.2566" x2="191.7446" y2="97.2566" width="0.1524" layer="91"/>
-<wire x1="186.6646" y1="97.2566" x2="186.6646" y2="92.1766" width="0.1524" layer="91"/>
-<wire x1="184.1246" y1="92.1766" x2="186.6646" y2="92.1766" width="0.1524" layer="91"/>
-<junction x="186.6646" y="97.2566"/>
+<wire x1="173.9646" y1="89.6366" x2="199.3646" y2="89.6366" width="0.1524" layer="91"/>
+<wire x1="199.3646" y1="89.6366" x2="204.4446" y2="89.6366" width="0.1524" layer="91"/>
+<wire x1="199.3646" y1="89.6366" x2="199.3646" y2="84.5566" width="0.1524" layer="91"/>
+<wire x1="196.8246" y1="84.5566" x2="199.3646" y2="84.5566" width="0.1524" layer="91"/>
+<junction x="199.3646" y="89.6366"/>
 <pinref part="IC1" gate="G$1" pin="A"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<label x="191.7446" y="97.2566" size="1.27" layer="95" xref="yes"/>
+<label x="204.4446" y="89.6366" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="B+" class="0">
@@ -17207,13 +17278,13 @@ des Banana Pro!</text>
 <label x="327.66" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="161.2646" y1="102.3366" x2="166.3446" y2="102.3366" width="0.1524" layer="91"/>
-<wire x1="166.3446" y1="102.3366" x2="191.7446" y2="102.3366" width="0.1524" layer="91"/>
-<wire x1="166.3446" y1="92.1766" x2="166.3446" y2="102.3366" width="0.1524" layer="91"/>
-<junction x="166.3446" y="102.3366"/>
+<wire x1="173.9646" y1="94.7166" x2="179.0446" y2="94.7166" width="0.1524" layer="91"/>
+<wire x1="179.0446" y1="94.7166" x2="204.4446" y2="94.7166" width="0.1524" layer="91"/>
+<wire x1="179.0446" y1="84.5566" x2="179.0446" y2="94.7166" width="0.1524" layer="91"/>
+<junction x="179.0446" y="94.7166"/>
 <pinref part="IC1" gate="G$1" pin="B"/>
 <pinref part="JP2" gate="A" pin="2"/>
-<label x="191.7446" y="102.3366" size="1.27" layer="95" xref="yes"/>
+<label x="204.4446" y="94.7166" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="P4" class="0">
@@ -17326,9 +17397,9 @@ des Banana Pro!</text>
 </net>
 <net name="TXD" class="0">
 <segment>
-<wire x1="125.7046" y1="92.1766" x2="135.8646" y2="92.1766" width="0.1524" layer="91"/>
+<wire x1="138.4046" y1="84.5566" x2="148.5646" y2="84.5566" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="DI"/>
-<label x="125.7046" y="92.1766" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="138.4046" y="84.5566" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
@@ -17338,9 +17409,9 @@ des Banana Pro!</text>
 </net>
 <net name="RXD" class="0">
 <segment>
-<wire x1="135.8646" y1="107.4166" x2="125.7046" y2="107.4166" width="0.1524" layer="91"/>
+<wire x1="148.5646" y1="99.7966" x2="138.4046" y2="99.7966" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="RO"/>
-<label x="125.7046" y="107.4166" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="138.4046" y="99.7966" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="12"/>
@@ -17350,7 +17421,7 @@ des Banana Pro!</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<wire x1="173.9646" y1="92.1766" x2="168.8846" y2="92.1766" width="0.1524" layer="91"/>
+<wire x1="186.6646" y1="84.5566" x2="181.5846" y2="84.5566" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="JP2" gate="A" pin="1"/>
 </segment>
@@ -17988,16 +18059,25 @@ des Banana Pro!</text>
 <wire x1="279.4" y1="142.24" x2="276.86" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="A" pin="G"/>
 <label x="276.86" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="147.32" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
+<junction x="279.4" y="142.24"/>
 </segment>
 <segment>
 <wire x1="279.4" y1="177.8" x2="274.32" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="G"/>
 <label x="274.32" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="182.88" x2="279.4" y2="177.8" width="0.1524" layer="91"/>
+<junction x="279.4" y="177.8"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="G"/>
 <wire x1="279.4" y1="213.36" x2="274.32" y2="213.36" width="0.1524" layer="91"/>
 <label x="274.32" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="218.44" x2="279.4" y2="213.36" width="0.1524" layer="91"/>
+<junction x="279.4" y="213.36"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="31"/>
@@ -18010,11 +18090,17 @@ des Banana Pro!</text>
 <pinref part="IC2" gate="A" pin="G"/>
 <wire x1="269.24" y1="88.9" x2="266.7" y2="88.9" width="0.1524" layer="91"/>
 <label x="266.7" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="93.98" x2="269.24" y2="88.9" width="0.1524" layer="91"/>
+<junction x="269.24" y="88.9"/>
 </segment>
 <segment>
 <wire x1="269.24" y1="53.34" x2="266.7" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="A" pin="G"/>
 <label x="266.7" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="58.42" x2="269.24" y2="53.34" width="0.1524" layer="91"/>
+<junction x="269.24" y="53.34"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="32"/>
@@ -18063,9 +18149,10 @@ des Banana Pro!</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,154.94,233.68,U1,IN,12V_VIN,,,"/>
-<approved hash="115,1,83.82,180.34,ACCU+,,,,,"/>
-<approved hash="115,1,102.87,233.68,12V_VIN,,,,,"/>
+<approved hash="104,1,154.94,233.68,U1,IN,N$4,,,"/>
+<approved hash="106,1,33.02,86.36,!MON_BAT,,,,,"/>
+<approved hash="106,1,33.02,88.9,!MON_MAINS,,,,,"/>
+<approved hash="113,1,36.7877,83.9512,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
