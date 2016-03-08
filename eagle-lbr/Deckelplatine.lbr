@@ -2950,7 +2950,7 @@ Source: VISHAY wscwsn.pdf</description>
 <pad name="L6.2" x="-2.0427" y="-12.65" drill="1.1" shape="long"/>
 <text x="-7.655" y="-15.4327" size="2" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-7.65" y="4.8873" size="2" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="10.0973" y="11.08" size="2" layer="21" font="vector" ratio="10" rot="R90">1</text>
+<text x="8.89" y="12.7" size="1.27" layer="21" rot="R90">1</text>
 </package>
 <package name="C221B1A">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
@@ -6885,10 +6885,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </package>
 <package name="TEXT_NAME_VERSION_AUTHOR-SMALL">
 <text x="0" y="2.23" size="2.1844" layer="21" font="vector" ratio="13">&gt;PROJEKTNAME</text>
-<text x="33.02" y="0" size="1.27" layer="21" font="vector">&gt;AUTHOR</text>
+<text x="33.02" y="0" size="1.27" layer="21" font="vector">2016</text>
 <text x="0" y="0" size="1.27" layer="21" font="vector" ratio="9">v</text>
 <text x="1.905" y="0" size="1.27" layer="21" font="vector">&gt;VERSION</text>
 <text x="13.97" y="0" size="1.27" layer="21" font="vector" ratio="12">Made in Germany</text>
+<text x="38.735" y="0" size="1.27" layer="21" font="vector">&gt;AUTHOR</text>
 </package>
 <package name="TEXT_NAME_VERSION_AUTHOR">
 <text x="0" y="3.5" size="3.81" layer="21" font="vector" ratio="13">&gt;PROJEKTNAME</text>
