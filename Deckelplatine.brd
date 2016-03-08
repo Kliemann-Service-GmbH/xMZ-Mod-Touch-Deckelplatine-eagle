@@ -55,7 +55,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
@@ -154,7 +154,7 @@
 </layers>
 <board>
 <plain>
-<wire x1="245.89" y1="168.98" x2="135.89" y2="168.98" width="0.2032" layer="21"/>
+<wire x1="245.89" y1="168.98" x2="135.89" y2="168.98" width="0.2032" layer="20"/>
 <wire x1="135.89" y1="168.98" x2="135.89" y2="93.98" width="0.2032" layer="20"/>
 <wire x1="135.89" y1="93.98" x2="245.89" y2="93.98" width="0.2032" layer="20"/>
 <wire x1="245.89" y1="168.98" x2="245.89" y2="94.05" width="0.2032" layer="20"/>
@@ -171,16 +171,16 @@
 <text x="220.0918" y="167.75" size="1" layer="21" font="vector" ratio="10">PWR Banana Pro</text>
 <text x="227.18" y="165.43" size="1.778" layer="21" font="vector" ratio="15">+</text>
 <text x="223.264" y="165.465" size="1.778" layer="21" font="vector" ratio="15">-</text>
-<text x="238.89" y="155.5242" size="0.8128" layer="21" font="vector" ratio="10">VCC3.3V</text>
-<text x="238.89" y="143.1182" size="0.8128" layer="21" font="vector" ratio="10">RXD</text>
-<text x="238.89" y="140.4366" size="0.8128" layer="21" font="vector" ratio="10">TXD</text>
-<text x="238.89" y="138.0242" size="0.8128" layer="21" font="vector" ratio="10">VCC3.3V</text>
-<text x="232.89" y="138.9358" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">!MON_MAINS</text>
-<text x="232.89" y="136.4358" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">!MON_BAT</text>
-<text x="232.89" y="111.4358" size="0.508" layer="21" font="vector" ratio="5" rot="R180">LED_SH_CP</text>
-<text x="232.89" y="108.9358" size="0.508" layer="21" font="vector" ratio="5" rot="R180">LED_ST_CP</text>
-<text x="238.89" y="112.5242" size="0.8128" layer="21" font="vector" ratio="10">REL_SH_CP</text>
-<text x="238.89" y="110.0242" size="0.8128" layer="21" font="vector" ratio="10">REL_ST_CP</text>
+<text x="238.89" y="155.5242" size="0.508" layer="21" font="vector" ratio="10">VCC3.3V</text>
+<text x="238.89" y="143.1182" size="0.508" layer="21" font="vector" ratio="10">RXD</text>
+<text x="238.89" y="140.4366" size="0.508" layer="21" font="vector" ratio="10">TXD</text>
+<text x="238.89" y="138.0242" size="0.508" layer="21" font="vector" ratio="10">VCC3.3V</text>
+<text x="232.89" y="138.9358" size="0.508" layer="21" font="vector" ratio="10" rot="R180">MON_MAINS</text>
+<text x="232.89" y="136.4358" size="0.508" layer="21" font="vector" ratio="10" rot="R180">MON_BAT</text>
+<text x="232.89" y="111.4358" size="0.508" layer="21" font="vector" ratio="10" rot="R180">LED_SH_CP</text>
+<text x="232.89" y="108.9358" size="0.508" layer="21" font="vector" ratio="10" rot="R180">LED_ST_CP</text>
+<text x="238.89" y="112.5242" size="0.508" layer="21" font="vector" ratio="10">REL_SH_CP</text>
+<text x="238.89" y="110.0242" size="0.508" layer="21" font="vector" ratio="10">REL_ST_CP</text>
 <text x="204.39" y="136.48" size="1" layer="21" font="vector" ratio="10">LED Folie</text>
 <text x="143.39" y="101.9358" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">B+</text>
 <text x="154.39" y="101.5242" size="0.8128" layer="21" font="vector" ratio="10">A-</text>
@@ -195,9 +195,9 @@
 <text x="143.39" y="124.4358" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">P4</text>
 <text x="154.39" y="122.0242" size="0.8128" layer="21" font="vector" ratio="10">P2</text>
 <text x="154.39" y="124.5242" size="0.8128" layer="21" font="vector" ratio="10">P3</text>
-<text x="232.89" y="156.4358" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">VCC5V</text>
-<text x="232.89" y="153.9358" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">VCC5V</text>
-<text x="238.89" y="115.0642" size="0.8128" layer="21" font="vector" ratio="10">REL_DS</text>
+<text x="232.89" y="156.4358" size="0.508" layer="21" font="vector" ratio="10" rot="R180">VCC5V</text>
+<text x="232.89" y="153.9358" size="0.508" layer="21" font="vector" ratio="10" rot="R180">VCC5V</text>
+<text x="238.89" y="115.0642" size="0.508" layer="21" font="vector" ratio="10">REL_DS</text>
 <text x="137.89" y="145.91" size="1.016" layer="21" font="vector" rot="R90">12V OUT</text>
 <text x="138.7" y="161.14" size="1.778" layer="21" font="vector" ratio="15" rot="R270">+</text>
 <text x="138.97" y="156.06" size="1.778" layer="21" font="vector" ratio="15" rot="R270">-</text>
@@ -213,16 +213,16 @@
 <wire x1="136.89" y1="144.48" x2="137.89" y2="144.98" width="0.254" layer="21"/>
 <text x="143.39" y="116.9758" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">GND</text>
 <text x="154.39" y="116.5642" size="0.8128" layer="21" font="vector" ratio="10">GND</text>
-<text x="232.89" y="151.3958" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">GND</text>
-<text x="232.89" y="141.2358" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">GND</text>
-<text x="232.89" y="131.0758" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">RTS</text>
-<text x="232.89" y="113.2958" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">LED_DS</text>
-<text x="232.89" y="115.8358" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">GND</text>
-<text x="232.89" y="118.3758" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">LED_!OE</text>
-<text x="238.89" y="145.3642" size="0.8128" layer="21" font="vector" ratio="10">GND</text>
-<text x="238.89" y="117.6042" size="0.8128" layer="21" font="vector" ratio="10">REL_!OE</text>
-<text x="238.89" y="107.2642" size="0.8128" layer="21" font="vector" ratio="10">GND</text>
-<text x="238.89" y="125.0442" size="0.8128" layer="21" font="vector" ratio="10">GND</text>
+<text x="232.89" y="151.3958" size="0.508" layer="21" font="vector" ratio="10" rot="R180">GND</text>
+<text x="232.89" y="141.2358" size="0.508" layer="21" font="vector" ratio="10" rot="R180">GND</text>
+<text x="232.89" y="131.0758" size="0.508" layer="21" font="vector" ratio="10" rot="R180">RTS</text>
+<text x="232.89" y="113.2958" size="0.508" layer="21" font="vector" ratio="10" rot="R180">LED_DS</text>
+<text x="232.89" y="115.8358" size="0.508" layer="21" font="vector" ratio="10" rot="R180">GND</text>
+<text x="232.89" y="118.3758" size="0.508" layer="21" font="vector" ratio="10" rot="R180">LED_!OE</text>
+<text x="238.89" y="145.3642" size="0.508" layer="21" font="vector" ratio="10">GND</text>
+<text x="238.89" y="117.6042" size="0.508" layer="21" font="vector" ratio="10">REL_!OE</text>
+<text x="238.89" y="107.2642" size="0.508" layer="21" font="vector" ratio="10">GND</text>
+<text x="238.89" y="125.0442" size="0.508" layer="21" font="vector" ratio="10">GND</text>
 <wire x1="137.16" y1="153.67" x2="142.24" y2="153.67" width="0.254" layer="21"/>
 <wire x1="137.16" y1="143.51" x2="142.24" y2="143.51" width="0.254" layer="21"/>
 <wire x1="137.16" y1="132.08" x2="142.24" y2="132.08" width="0.254" layer="21"/>
@@ -6849,6 +6849,7 @@ by exp-lbrs.ulp</description>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Stefan Müller"/>
+<attribute name="DESCRIPTION" value="Drill Drawing"/>
 <attribute name="PROJEKTNAME" value="xMZ-Mod-Touch-Deckelplatine"/>
 <attribute name="VERSION" value="0.9.5"/>
 </attributes>
@@ -6858,72 +6859,35 @@ by exp-lbrs.ulp</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="Multi-CB_2L_125æm-Tracks_OL35æm">
-<description language="de">&lt;b&gt;Multi-CB EAGLE Design Rules für 2 Lagen Standard (ohne Aufpreis)&lt;/b&gt;
-&lt;br&gt;
-125µm Leiter, 0.2mm Drill, ca. 35µm End-Kupfer (18µm Startkupfer)
+<designrules name="SparkFun-2-layer">
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-&lt;b&gt;Bitte beachten:&lt;/b&gt;
-&lt;ul type=&quot;square&quot;&gt;
-	&lt;li&gt;Vias kleiner/gleich 0.45mm werden mit Lötstopp abgedeckt. Eine Freistellung der Vias kann unter Masks/Limit gesetzt werden.&lt;/li&gt;
-	&lt;li&gt;Bitte nur Vektorschrift verwenden! Im Control-Panel unter Optionen/Benutzeroberfläche: Immer Vektor-Schrift.&lt;/li&gt;
-	&lt;li&gt;Langlöcher im Layer 46 werden als durchkontaktierte Schlitze (DK) gefertigt, falls von Kupfer umgeben. NDK-Langlöcher müssen im Layer 20 definiert sein (Preisvorteil).&lt;/li&gt;
-	&lt;li&gt;Dieses .dru-File ist für Boards mit Fräskontur. Geritzte Kontur erfordert Distance/Copper/Dimension: 0.5mm.&lt;/li&gt;
-	&lt;li&gt;Falls Lötstopp-Brücken im gleichen Netz erwünscht: Clearance/Same Signals anpassen (empfohlen: 8mil)&lt;/li&gt;
-	&lt;li&gt;Supply/ Generate thermals ist standardmäßig aktiviert; kann auch deaktiviert werden.&lt;/li&gt;
-	&lt;li&gt;Zum Reduzieren der Pad-Größe für SMD-Schablonen kann Masks/Cream angepasst werden.&lt;/li&gt;
-&lt;/ul&gt;
-Für kleinere Werte (Leiterbahn, Drill) verwenden Sie bitte ein Advanced .dru-File von Multi-CB.&lt;br&gt;
-Weitere Hinweise finden Sie unter &lt;b&gt;Design-Hilfe&lt;/b&gt; auf unserer Webseite &lt;a href=&quot;http://www.multi-circuit-boards.eu/leiterplatten-design-hilfe/einfuehrung.html&quot;&gt;www.multi-cb.de&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-Ihr Multi-CB Team
-&lt;br&gt;&lt;br&gt;
-&lt;em&gt;Alle Angaben ohne Gewähr! Eine perfekte Einstellung der Design-Rules kann verständlicherweise nur durch den Anwender erfolgen.&lt;/em&gt;
-&lt;/p&gt;</description>
-<description language="en">&lt;b&gt;Multi-CB EAGLE Design Rules for 2 layers standard (w/o surcharge)&lt;/b&gt;
-&lt;br&gt;
-125µm tracks, 0.2mm drills, ca. 35µm final copper (18µm start copper)
-&lt;p&gt;
-&lt;b&gt;Please note:&lt;/b&gt;
-&lt;ul type=&quot;square&quot;&gt;
-	&lt;li&gt;Vias less/equal 0.45mm will be covered with solder mask. An exemption of the vias can be placed under Masks / Limit.&lt;/li&gt;
-	&lt;li&gt;Please only use vector fonts! In Control Panel under Options / User Interface: Always vector font.&lt;/li&gt;
-	&lt;li&gt;Oblong holes in the layer 46 are manufactured as plated-through slots (PTH), if surrounded by copper. NPTH-slots must be defined in the layer 20 (price advantage).&lt;/li&gt;
-	&lt;li&gt;This .dru-File is for boards with milling contour. V-scoring contour requires Distance / Copper / Dimension: 0.5mm.&lt;/li&gt;
-	&lt;li&gt;If solder-stop bridges on the same network are desired: Adjust Clearance / Same signal (recommended 8mil)&lt;/li&gt;
-	&lt;li&gt;Supply / Generate thermals is enabled by default; can also be deactivated.&lt;/li&gt;
-	&lt;li&gt;To reduce the pad size for SMD-Stencils: Masks/Cream can be customized.&lt;/li&gt;
-&lt;/ul&gt;
-For smaller values (conductors, drill) please use an Advanced .dru file of Multi-CB.&lt;br&gt;
-For more information, see &lt;b&gt;Design-Aid&lt;/b&gt; on our website &lt;a href=&quot;http://www.multi-circuit-boards.eu/en/pcb-design-aid/introduction.html&quot;&gt;www.multi-cb.de&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-Your Multi-CB Team
-&lt;br&gt;&lt;br&gt;
-&lt;em&gt;All statements without guarantee! A perfect setting of design rules can understandably only be performed by the user.&lt;/em&gt;
-&lt;/p&gt;</description>
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.018mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.018mm"/>
-<param name="mtIsolate" value="1.55mm 0.71mm 0.36mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="0.125mm"/>
-<param name="mdWirePad" value="0.125mm"/>
-<param name="mdWireVia" value="0.125mm"/>
-<param name="mdPadPad" value="0.125mm"/>
-<param name="mdPadVia" value="0.125mm"/>
-<param name="mdViaVia" value="0.125mm"/>
-<param name="mdSmdPad" value="0mil"/>
-<param name="mdSmdVia" value="0mil"/>
-<param name="mdSmdSmd" value="0mil"/>
-<param name="mdViaViaSameLayer" value="0.2mm"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="0.2mm"/>
-<param name="mdDrill" value="0.2mm"/>
+<param name="mdCopperDimension" value="8mil"/>
+<param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="0.125mm"/>
-<param name="msDrill" value="0.2mm"/>
-<param name="msMicroVia" value="0.2mm"/>
-<param name="msBlindViaRatio" value="1"/>
+<param name="msWidth" value="7mil"/>
+<param name="msDrill" value="15mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
 <param name="rvPadBottom" value="0.25"/>
@@ -6931,20 +6895,20 @@ Your Multi-CB Team
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="0.125mm"/>
-<param name="rlMaxPadTop" value="0.75mm"/>
-<param name="rlMinPadInner" value="0.125mm"/>
-<param name="rlMaxPadInner" value="0.75mm"/>
-<param name="rlMinPadBottom" value="0.125mm"/>
-<param name="rlMaxPadBottom" value="0.75mm"/>
-<param name="rlMinViaOuter" value="0.125mm"/>
-<param name="rlMaxViaOuter" value="0.75mm"/>
-<param name="rlMinViaInner" value="0.125mm"/>
-<param name="rlMaxViaInner" value="0.75mm"/>
-<param name="rlMinMicroViaOuter" value="0.125mm"/>
-<param name="rlMaxMicroViaOuter" value="0.75mm"/>
-<param name="rlMinMicroViaInner" value="0.125mm"/>
-<param name="rlMaxMicroViaInner" value="0.75mm"/>
+<param name="rlMinPadTop" value="12mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="12mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="10mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="10mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
@@ -6952,20 +6916,20 @@ Your Multi-CB Team
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2mil"/>
-<param name="mlMaxStopFrame" value="2mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0.45mm"/>
+<param name="mlViaStopLimit" value="20mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="0.2mm"/>
-<param name="slThermalsForVias" value="1"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
-<param name="checkAngle" value="0"/>
+<param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
@@ -7068,12 +7032,6 @@ Your Multi-CB Team
 </pass>
 </autorouter>
 <elements>
-<element name="C3" library="resistor" package="C0603" value="100n" x="175.142" y="105.5922">
-<attribute name="PARTNO" value="ECHU-16-100N" x="175.142" y="105.5922" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="C0603C104K8RACTU" x="175.142" y="105.5922" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="KEMET" x="175.142" y="105.5922" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="2112833" x="175.142" y="105.5922" size="1.778" layer="27" display="off"/>
-</element>
 <element name="C11" library="resistor" package="C0603" value="0.1uF" x="199.771" y="102.997" rot="R270">
 <attribute name="PARTNO" value="SMD TAN.0,1/35" x="199.771" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="C0603C104K8RACTU" x="199.771" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7144,17 +7102,17 @@ Your Multi-CB Team
 <attribute name="MF" value="KEMET" x="218.891" y="144.8142" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="2112833" x="218.891" y="144.8142" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C9" library="resistor" package="C0603" value="0.1uF" x="227.228" y="103.2764" rot="R270">
-<attribute name="PARTNO" value="SMD TAN.0,1/35" x="227.228" y="103.2764" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="C0603C104K8RACTU" x="227.228" y="103.2764" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="KEMET" x="227.228" y="103.2764" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2112833" x="227.228" y="103.2764" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C9" library="resistor" package="C0603" value="0.1uF" x="227.228" y="102.997" rot="R270">
+<attribute name="PARTNO" value="SMD TAN.0,1/35" x="227.228" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K8RACTU" x="227.228" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="KEMET" x="227.228" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="2112833" x="227.228" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C10" library="resistor" package="C0603" value="0.1uF" x="213.233" y="103.2764" rot="R270">
-<attribute name="PARTNO" value="SMD TAN.0,1/35" x="213.233" y="103.2764" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="C0603C104K8RACTU" x="213.233" y="103.2764" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="KEMET" x="213.233" y="103.2764" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="2112833" x="213.233" y="103.2764" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C10" library="resistor" package="C0603" value="0.1uF" x="213.233" y="102.997" rot="R270">
+<attribute name="PARTNO" value="SMD TAN.0,1/35" x="213.233" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K8RACTU" x="213.233" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="KEMET" x="213.233" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="2112833" x="213.233" y="102.997" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC1" library="maxim" package="SO08" value="MAX1487EESA+" x="177.0736" y="109.212" rot="R90">
 <attribute name="OC_NEWARK" value="90C3817" x="177.0736" y="109.212" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7193,7 +7151,7 @@ Your Multi-CB Team
 <attribute name="MF" value="NXP" x="195.39" y="108.98" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="2098004" x="195.39" y="108.98" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP1" library="pinhead" package="2X20" value="" x="235.89" y="131.98" smashed="yes" rot="R270">
+<element name="JP1" library="pinhead" package="2X20" value="CON 2x20" x="235.89" y="131.98" smashed="yes" rot="R270">
 <attribute name="DNP" value="T" x="235.89" y="131.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="M20-6112045" x="235.89" y="131.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="HARWIN" x="235.89" y="131.98" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7207,11 +7165,11 @@ Your Multi-CB Team
 <attribute name="MF" value="TE CONNECTIVITY / AMP" x="168.712" y="104.9144" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="3417645" x="168.712" y="104.9144" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="JP3" library="pinhead" package="2X10" value="''" x="148.89" y="112.98" smashed="yes" rot="R270">
+<element name="JP3" library="pinhead" package="2X10" value="CON 2x10" x="148.89" y="112.98" smashed="yes" rot="R270">
 <attribute name="DNP" value="T" x="148.89" y="112.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="5103308-5" x="148.89" y="112.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / AMP" x="148.89" y="112.98" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL_ALTERNATIV" value="9689621" x="148.89" y="112.98" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL_ALTERNATIVE" value="9689621" x="148.89" y="112.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="2452432" x="148.89" y="112.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="147.19" y="127.155" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="141.945" y="129.18" size="1.27" layer="27" rot="R270"/>
@@ -7395,6 +7353,7 @@ Your Multi-CB Team
 <attribute name="OC_FARNELL" value="1283529" x="149.89" y="148.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="157.545" y="163.4927" size="2" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="157.54" y="162.2227" size="2" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="DATASHEETURL" value="WAGO236_Connector Banana Pro Power SATA-WAGO236-402_WAGO236-403_WAGO236-404#WAG.pdf" x="149.89" y="148.06" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="X2" library="con-wago_233" package="P-233-502" value="233-502" x="225.89" y="158.98" rot="R270">
 <attribute name="PARTNO" value="WAGO 233-502" x="225.89" y="158.98" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -7414,10 +7373,10 @@ Your Multi-CB Team
 <attribute name="MF" value="DIODES INC." x="179.05" y="136.31" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="B340LB-13-F" x="179.05" y="136.31" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D3" library="diode" package="MELF-MLL41" value="LL4005G" x="186.7248" y="164.822" rot="R90">
-<attribute name="OC_FARNELL" value="1625106" x="186.7248" y="164.822" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="TAIWAN SEMICONDUCTOR" x="186.7248" y="164.822" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="LL4005G" x="186.7248" y="164.822" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="D3" library="diode" package="MELF-MLL41" value="LL4005G" x="186.69" y="164.441" rot="R90">
+<attribute name="OC_FARNELL" value="1625106" x="186.69" y="164.441" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="TAIWAN SEMICONDUCTOR" x="186.69" y="164.441" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LL4005G" x="186.69" y="164.441" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="H1" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="139.7" y="97.79">
 <attribute name="OC_FARNELL" value="unknown" x="139.7" y="97.79" size="1.778" layer="27" display="off"/>
@@ -7451,20 +7410,20 @@ Your Multi-CB Team
 <attribute name="MF" value="LITTELFUSE" x="172.72" y="156.21" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="OC_FARNELL" value="1155771" x="172.72" y="156.21" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="D1" library="diode" package="MELF-MLL41" value="LL4005G" x="193.04" y="161.29" rot="R90">
-<attribute name="MPN" value="LL4005G" x="193.04" y="161.29" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MF" value="TAIWAN SEMICONDUCTOR" x="193.04" y="161.29" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="OC_FARNELL" value="1625106" x="193.04" y="161.29" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="D1" library="diode" package="MELF-MLL41" value="LL4005G" x="190.373" y="150.749" rot="R270">
+<attribute name="MPN" value="LL4005G" x="190.373" y="150.749" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TAIWAN SEMICONDUCTOR" x="190.373" y="150.749" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1625106" x="190.373" y="150.749" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="R1" library="RA-GAS Projekte LTD" package="R0603" value="10k" x="197.104" y="103.886" rot="R180">
 <attribute name="OC_FARNELL" value="1697388" x="197.104" y="103.886" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="197.104" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CPF0603B10KE1" x="197.104" y="103.886" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R2" library="RA-GAS Projekte LTD" package="R0603" value="10k" x="210.566" y="104.14" rot="R180">
-<attribute name="MPN" value="CPF0603B10KE1" x="210.566" y="104.14" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="210.566" y="104.14" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1697388" x="210.566" y="104.14" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<element name="R2" library="RA-GAS Projekte LTD" package="R0603" value="10k" x="210.566" y="103.886" rot="R180">
+<attribute name="MPN" value="CPF0603B10KE1" x="210.566" y="103.886" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="MF" value="TE CONNECTIVITY / NEOHM" x="210.566" y="103.886" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="1697388" x="210.566" y="103.886" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="R3" library="RA-GAS Projekte LTD" package="R0603" value="10k" x="224.536" y="103.886" rot="R180">
 <attribute name="MPN" value="CPF0603B10KE1" x="224.536" y="103.886" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
@@ -7484,10 +7443,10 @@ Your Multi-CB Team
 <element name="U$5" library="xMZ-Mod-Touch-Bodenplatine" package="A3-LOC-RA-GAS" value="" x="194.31" y="130.81"/>
 <element name="U$3" library="Deckelplatine" package="TEXT_NAME_VERSION_AUTHOR-SMALL" value="" x="179.07" y="95.25"/>
 <element name="U$6" library="Deckelplatine" package="LOGO_RA-GAS-SMALL" value="" x="162.56" y="95.25"/>
-<element name="D4" library="diode" package="MELF-MLL41" value="LL4005G" x="186.69" y="156.21" rot="R270">
-<attribute name="MPN" value="LL4005G" x="186.69" y="156.21" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="MF" value="TAIWAN SEMICONDUCTOR" x="186.69" y="156.21" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="1625106" x="186.69" y="156.21" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<element name="D4" library="diode" package="MELF-MLL41" value="LL4005G" x="186.69" y="155.829" rot="R270">
+<attribute name="MPN" value="LL4005G" x="186.69" y="155.829" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MF" value="TAIWAN SEMICONDUCTOR" x="186.69" y="155.829" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1625106" x="186.69" y="155.829" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="R6" library="RA-GAS Projekte LTD" package="R0603" value="2.7k" x="195.707" y="159.512" rot="R270">
 <attribute name="OC_FARNELL" value="1469891" x="195.707" y="159.512" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -7504,7 +7463,7 @@ Your Multi-CB Team
 <attribute name="MF" value="YAGEO (PHYCOMP)" x="195.58" y="163.83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL." x="195.58" y="163.83" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D5" library="Deckelplatine" package="SOD523" value="" x="197.485" y="164.084" rot="R90">
+<element name="D5" library="Deckelplatine" package="SOD523" value=" MM5Z3V3" x="197.485" y="164.084" rot="R90">
 <attribute name="OC_FARNELL" value="2454004" x="197.485" y="164.084" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="197.485" y="164.084" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MM5Z3V3" x="197.485" y="164.084" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7514,10 +7473,16 @@ Your Multi-CB Team
 <attribute name="MF" value="YAGEO (PHYCOMP)" x="191.897" y="167.132" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603FR-071KL." x="191.897" y="167.132" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D6" library="Deckelplatine" package="SOD523" value="" x="189.992" y="166.878" rot="R90">
+<element name="D6" library="Deckelplatine" package="SOD523" value=" MM5Z3V3" x="189.992" y="166.878" rot="R90">
 <attribute name="OC_FARNELL" value="2454004" x="189.992" y="166.878" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" x="189.992" y="166.878" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MM5Z3V3" x="189.992" y="166.878" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C3" library="resistor" package="C0603" value="0.1uF" x="175.26" y="105.41">
+<attribute name="PARTNO" value="SMD TAN.0,1/35" x="175.26" y="105.41" size="0.508" layer="27" font="vector" display="off"/>
+<attribute name="MPN" value="C0603C104K8RACTU" x="175.26" y="105.41" size="0.508" layer="27" font="vector" display="off"/>
+<attribute name="MF" value="KEMET" x="175.26" y="105.41" size="0.508" layer="27" font="vector" display="off"/>
+<attribute name="OC_FARNELL" value="2112833" x="175.26" y="105.41" size="0.508" layer="27" font="vector" display="off"/>
 </element>
 </elements>
 <signals>
@@ -7525,7 +7490,6 @@ Your Multi-CB Team
 <contactref element="JP3" pad="7"/>
 <contactref element="JP3" pad="8"/>
 <contactref element="IC1" pad="5"/>
-<contactref element="C3" pad="2"/>
 <contactref element="U1" pad="4"/>
 <contactref element="IC3" pad="8"/>
 <contactref element="C8" pad="2"/>
@@ -7582,6 +7546,7 @@ Your Multi-CB Team
 <contactref element="R8" pad="1"/>
 <contactref element="D5" pad="A"/>
 <via x="189.497" y="158.28" extent="1-16" drill="0.508"/>
+<contactref element="C3" pad="2"/>
 </signal>
 <signal name="VCC">
 <contactref element="JP3" pad="10"/>
@@ -7602,7 +7567,6 @@ Your Multi-CB Team
 <contactref element="C6" pad="1"/>
 <contactref element="U1" pad="6"/>
 <contactref element="IC1" pad="8"/>
-<contactref element="C3" pad="1"/>
 <contactref element="IC4" pad="16"/>
 <contactref element="C9" pad="1"/>
 <contactref element="X2" pad="L1.2"/>
@@ -7624,17 +7588,11 @@ Your Multi-CB Team
 <wire x1="222.25" y1="143.51" x2="227.33" y2="148.59" width="0.8128" layer="1"/>
 <wire x1="227.33" y1="148.59" x2="227.33" y2="157.632" width="0.8128" layer="1"/>
 <wire x1="227.33" y1="157.632" x2="227.44" y2="157.742" width="0.254" layer="1"/>
-<wire x1="227.228" y1="104.1264" x2="227.228" y2="105.7996" width="0.254" layer="1"/>
-<wire x1="174.0002" y1="105.884" x2="174.292" y2="105.5922" width="0.254" layer="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="R2" pad="1"/>
 <contactref element="R3" pad="1"/>
 <contactref element="R4" pad="1"/>
 <contactref element="R5" pad="1"/>
-<wire x1="227.228" y1="104.1264" x2="225.6264" y2="104.1264" width="0.254" layer="1"/>
-<wire x1="225.6264" y1="104.1264" x2="225.386" y2="103.886" width="0.254" layer="1"/>
-<wire x1="213.233" y1="104.1264" x2="211.4296" y2="104.1264" width="0.254" layer="1"/>
-<wire x1="211.4296" y1="104.1264" x2="211.416" y2="104.14" width="0.254" layer="1"/>
 <wire x1="199.771" y1="103.847" x2="197.993" y2="103.847" width="0.254" layer="1"/>
 <wire x1="197.993" y1="103.847" x2="197.954" y2="103.886" width="0.254" layer="1"/>
 <wire x1="163.52" y1="136.29" x2="163.52" y2="121.92" width="0.8128" layer="1"/>
@@ -7657,10 +7615,7 @@ Your Multi-CB Team
 <wire x1="218.891" y1="145.6642" x2="220.0958" y2="145.6642" width="0.254" layer="1"/>
 <wire x1="220.0958" y1="145.6642" x2="222.25" y2="143.51" width="0.254" layer="1"/>
 <wire x1="165.1" y1="97.79" x2="167.64" y2="97.79" width="0.254" layer="1"/>
-<wire x1="167.64" y1="97.79" x2="173.99" y2="104.14" width="0.254" layer="1"/>
-<wire x1="173.99" y1="104.14" x2="173.99" y2="105.2902" width="0.254" layer="1"/>
-<wire x1="173.99" y1="105.2902" x2="174.292" y2="105.5922" width="0.254" layer="1"/>
-<wire x1="174.0002" y1="105.884" x2="174.0002" y2="107.307" width="0.254" layer="1"/>
+<wire x1="167.64" y1="97.79" x2="174.41" y2="104.56" width="0.254" layer="1"/>
 <wire x1="174.13" y1="121.44" x2="164" y2="121.44" width="0.8128" layer="1"/>
 <wire x1="164" y1="121.44" x2="163.52" y2="121.92" width="0.254" layer="1"/>
 <wire x1="194.215" y1="147.9066" x2="194.215" y2="144.685" width="0.254" layer="1"/>
@@ -7672,13 +7627,9 @@ Your Multi-CB Team
 <wire x1="225.39" y1="101.98" x2="225.39" y2="103.882" width="0.254" layer="1"/>
 <wire x1="225.39" y1="103.882" x2="225.386" y2="103.886" width="0.254" layer="1"/>
 <wire x1="219.715" y1="105.9066" x2="219.715" y2="104.305" width="0.254" layer="1"/>
-<wire x1="219.715" y1="104.305" x2="217.39" y2="101.98" width="0.254" layer="1"/>
-<wire x1="217.39" y1="101.98" x2="215.39" y2="99.98" width="0.254" layer="1"/>
+<wire x1="219.715" y1="104.305" x2="217.09" y2="101.68" width="0.254" layer="1"/>
+<wire x1="217.09" y1="101.68" x2="215.39" y2="99.98" width="0.254" layer="1"/>
 <wire x1="215.39" y1="99.98" x2="215.39" y2="97.79" width="0.254" layer="1"/>
-<wire x1="213.335" y1="105.9066" x2="213.335" y2="104.2284" width="0.254" layer="1"/>
-<wire x1="213.335" y1="104.2284" x2="213.233" y2="104.1264" width="0.254" layer="1"/>
-<wire x1="213.233" y1="104.1264" x2="215.2436" y2="104.1264" width="0.254" layer="1"/>
-<wire x1="215.2436" y1="104.1264" x2="217.39" y2="101.98" width="0.254" layer="1"/>
 <wire x1="205.715" y1="105.9066" x2="205.715" y2="103.805" width="0.254" layer="1"/>
 <wire x1="205.715" y1="103.805" x2="203.39" y2="101.48" width="0.254" layer="1"/>
 <wire x1="203.39" y1="101.48" x2="201.39" y2="99.48" width="0.254" layer="1"/>
@@ -7704,6 +7655,19 @@ Your Multi-CB Team
 <wire x1="201.39" y1="144.98" x2="201.985" y2="145.575" width="0.254" layer="1"/>
 <wire x1="197.938" y1="143.787" x2="197.938" y2="143.288" width="0.254" layer="1"/>
 <wire x1="197.938" y1="143.288" x2="196.89" y2="142.24" width="0.254" layer="1"/>
+<wire x1="211.416" y1="103.886" x2="213.194" y2="103.886" width="0.254" layer="1"/>
+<wire x1="213.194" y1="103.886" x2="213.233" y2="103.847" width="0.254" layer="1"/>
+<wire x1="213.233" y1="103.847" x2="213.233" y2="105.8046" width="0.254" layer="1"/>
+<wire x1="213.233" y1="105.8046" x2="213.335" y2="105.9066" width="0.254" layer="1"/>
+<wire x1="227.228" y1="105.7996" x2="227.228" y2="103.847" width="0.254" layer="1"/>
+<wire x1="227.228" y1="103.847" x2="225.425" y2="103.847" width="0.254" layer="1"/>
+<wire x1="225.425" y1="103.847" x2="225.39" y2="103.882" width="0.254" layer="1"/>
+<wire x1="213.233" y1="103.847" x2="214.923" y2="103.847" width="0.254" layer="1"/>
+<wire x1="214.923" y1="103.847" x2="217.09" y2="101.68" width="0.254" layer="1"/>
+<contactref element="C3" pad="1"/>
+<wire x1="174.0002" y1="107.307" x2="174.0002" y2="105.8198" width="0.254" layer="1"/>
+<wire x1="174.0002" y1="105.8198" x2="174.41" y2="105.41" width="0.254" layer="1"/>
+<wire x1="174.41" y1="105.41" x2="174.41" y2="104.56" width="0.254" layer="1"/>
 </signal>
 <signal name="RTS">
 <contactref element="IC1" pad="3"/>
@@ -7774,14 +7738,17 @@ Your Multi-CB Team
 <contactref element="IC2" pad="4"/>
 <via x="207.39" y="162.48" extent="1-16" drill="0.508"/>
 <via x="146.89" y="127.98" extent="1-16" drill="0.508"/>
-<wire x1="146.89" y1="127.98" x2="145.89" y2="126.48" width="0.254" layer="1"/>
-<wire x1="145.89" y1="126.48" x2="145.89" y2="123.6" width="0.254" layer="1"/>
-<wire x1="145.89" y1="123.6" x2="147.62" y2="121.87" width="0.254" layer="1"/>
 <wire x1="207.39" y1="162.48" x2="214.89" y2="154.98" width="0.254" layer="1"/>
 <wire x1="214.89" y1="154.98" x2="214.89" y2="154.1884" width="0.254" layer="1"/>
 <wire x1="214.89" y1="154.1884" x2="215.025" y2="154.0534" width="0.254" layer="1"/>
 <wire x1="146.89" y1="127.98" x2="172.89" y2="127.98" width="0.254" layer="16"/>
 <wire x1="172.89" y1="127.98" x2="207.39" y2="162.48" width="0.254" layer="16"/>
+<wire x1="146.89" y1="127.98" x2="146.89" y2="127.84" width="0.254" layer="1"/>
+<wire x1="146.89" y1="127.84" x2="146.05" y2="127" width="0.254" layer="1"/>
+<wire x1="146.05" y1="127" x2="146.05" y2="123.19" width="0.254" layer="1"/>
+<wire x1="146.05" y1="123.19" x2="147.32" y2="121.92" width="0.254" layer="1"/>
+<wire x1="147.32" y1="121.92" x2="147.57" y2="121.92" width="0.254" layer="1"/>
+<wire x1="147.57" y1="121.92" x2="147.62" y2="121.87" width="0.254" layer="1"/>
 </signal>
 <signal name="P6">
 <contactref element="JP3" pad="5"/>
@@ -8651,10 +8618,10 @@ Your Multi-CB Team
 <contactref element="R1" pad="2"/>
 <wire x1="223.525" y1="105.9066" x2="223.525" y2="104.047" width="0.254" layer="1"/>
 <wire x1="223.525" y1="104.047" x2="223.686" y2="103.886" width="0.254" layer="1"/>
-<wire x1="209.525" y1="105.9066" x2="209.525" y2="104.331" width="0.254" layer="1"/>
-<wire x1="209.525" y1="104.331" x2="209.716" y2="104.14" width="0.254" layer="1"/>
 <wire x1="196.025" y1="105.9066" x2="196.025" y2="104.115" width="0.254" layer="1"/>
 <wire x1="196.025" y1="104.115" x2="196.254" y2="103.886" width="0.254" layer="1"/>
+<wire x1="209.525" y1="105.9066" x2="209.525" y2="104.077" width="0.254" layer="1"/>
+<wire x1="209.525" y1="104.077" x2="209.716" y2="103.886" width="0.254" layer="1"/>
 </signal>
 <signal name="REL_!OE">
 <contactref element="IC2" pad="13"/>
@@ -8708,21 +8675,19 @@ Your Multi-CB Team
 <wire x1="168.91" y1="132.08" x2="168.91" y2="149.86" width="1.016" layer="16"/>
 <contactref element="D4" pad="C"/>
 <contactref element="R7" pad="2"/>
-<wire x1="186.69" y1="162.1622" x2="186.7248" y2="162.197" width="0.254" layer="1"/>
-<wire x1="186.7248" y1="162.197" x2="189.844" y2="162.197" width="0.254" layer="1"/>
-<wire x1="189.844" y1="162.197" x2="189.992" y2="162.345" width="0.254" layer="1"/>
-<wire x1="185.42" y1="158.75" x2="186.605" y2="158.75" width="0.254" layer="1"/>
-<wire x1="186.605" y1="158.75" x2="186.69" y2="158.835" width="0.254" layer="1"/>
+<wire x1="185.547" y1="158.369" x2="186.732" y2="158.369" width="0.254" layer="1"/>
+<wire x1="186.732" y1="158.369" x2="186.69" y2="158.454" width="0" layer="19" extent="1-16"/>
 <wire x1="168.91" y1="149.86" x2="173.99" y2="154.94" width="1.016" layer="16"/>
 <wire x1="173.99" y1="154.94" x2="173.99" y2="160.16" width="1.016" layer="16"/>
 <wire x1="177.72" y1="163.89" x2="173.99" y2="160.16" width="1.016" layer="1"/>
 <via x="173.99" y="160.16" extent="1-16" drill="0.508"/>
-<wire x1="182.6992" y1="163.97" x2="182.6992" y2="162.7408" width="1.016" layer="1"/>
-<wire x1="182.6992" y1="162.7408" x2="184.15" y2="161.29" width="1.016" layer="1"/>
-<wire x1="186.69" y1="158.835" x2="186.69" y2="162.1622" width="1.016" layer="1"/>
-<wire x1="186.69" y1="162.1622" x2="186.2922" y2="162.1622" width="1.016" layer="1"/>
-<wire x1="186.2922" y1="162.1622" x2="185.42" y2="161.29" width="1.016" layer="1"/>
-<wire x1="185.42" y1="161.29" x2="184.15" y2="161.29" width="1.016" layer="1"/>
+<wire x1="182.6992" y1="163.97" x2="182.6992" y2="162.7408" width="1.778" layer="1"/>
+<wire x1="182.6992" y1="162.7408" x2="184.15" y2="161.29" width="1.778" layer="1"/>
+<wire x1="184.15" y1="161.29" x2="186.164" y2="161.29" width="1.778" layer="1"/>
+<wire x1="186.164" y1="161.29" x2="186.69" y2="161.816" width="1.778" layer="1"/>
+<wire x1="186.69" y1="161.816" x2="186.69" y2="158.454" width="1.778" layer="1"/>
+<wire x1="186.69" y1="161.816" x2="189.463" y2="161.816" width="0.254" layer="1"/>
+<wire x1="189.463" y1="161.816" x2="189.992" y2="162.345" width="0.254" layer="1"/>
 </signal>
 <signal name="N$37">
 <contactref element="D4" pad="A"/>
@@ -8731,16 +8696,18 @@ Your Multi-CB Team
 <contactref element="F2" pad="2B"/>
 <contactref element="R6" pad="2"/>
 <wire x1="177.72" y1="156.21" x2="182.72" y2="156.21" width="1.778" layer="1"/>
-<wire x1="186.605" y1="153.67" x2="186.69" y2="153.585" width="0.254" layer="1"/>
-<wire x1="193.04" y1="158.665" x2="195.704" y2="158.665" width="0.254" layer="1"/>
+<wire x1="186.732" y1="153.289" x2="186.69" y2="153.204" width="0" layer="19" extent="1-16"/>
 <wire x1="195.704" y1="158.665" x2="195.707" y2="158.662" width="0.254" layer="1"/>
-<wire x1="182.72" y1="156.21" x2="182.72" y2="155.1" width="1.016" layer="1"/>
-<wire x1="182.72" y1="155.1" x2="184.15" y2="153.67" width="1.016" layer="1"/>
-<wire x1="184.15" y1="153.67" x2="186.605" y2="153.67" width="1.016" layer="1"/>
-<wire x1="186.69" y1="153.585" x2="187.875" y2="153.585" width="1.016" layer="1"/>
-<wire x1="187.875" y1="153.585" x2="191.77" y2="157.48" width="1.016" layer="1"/>
-<wire x1="191.77" y1="157.48" x2="191.855" y2="157.48" width="1.016" layer="1"/>
-<wire x1="191.855" y1="157.48" x2="193.04" y2="158.665" width="1.016" layer="1"/>
+<wire x1="182.72" y1="156.21" x2="182.72" y2="153.83" width="1.778" layer="1"/>
+<wire x1="182.72" y1="153.83" x2="184.15" y2="152.4" width="1.778" layer="1"/>
+<wire x1="184.15" y1="152.4" x2="185.886" y2="152.4" width="1.778" layer="1"/>
+<wire x1="185.886" y1="152.4" x2="186.69" y2="153.204" width="1.778" layer="1"/>
+<wire x1="186.732" y1="153.289" x2="190.288" y2="153.289" width="1.778" layer="1"/>
+<wire x1="190.288" y1="153.289" x2="190.373" y2="153.374" width="1.778" layer="1"/>
+<wire x1="195.707" y1="158.662" x2="192.952" y2="158.662" width="0.254" layer="1"/>
+<wire x1="192.952" y1="158.662" x2="190.5" y2="156.21" width="0.254" layer="1"/>
+<wire x1="190.5" y1="156.21" x2="190.5" y2="153.501" width="0.254" layer="1"/>
+<wire x1="190.5" y1="153.501" x2="190.373" y2="153.374" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>

@@ -18206,27 +18206,21 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 </classes>
 <parts>
 <part name="FRAME1" library="RA-GAS Projekte LTD" deviceset="A3L-LOC-RA-GAS" device="" value="zzeroo systems"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-2X20" device="">
+<part name="JP1" library="pinhead" deviceset="PINHD-2X20" device="" value="CON 2x20">
 <attribute name="DNP" value="T"/>
 <attribute name="MF" value="HARWIN"/>
 <attribute name="MPN" value="M20-6112045"/>
 <attribute name="OC_FARNELL" value="1569232"/>
 <attribute name="OC_FARNELL_ALTERNATIVE" value="1569230"/>
 </part>
-<part name="JP3" library="pinhead" deviceset="PINHD-2X10" device="" value="''">
+<part name="JP3" library="pinhead" deviceset="PINHD-2X10" device="" value="CON 2x10">
 <attribute name="DNP" value="T"/>
 <attribute name="MF" value="TE CONNECTIVITY / AMP"/>
 <attribute name="MPN" value="5103308-5"/>
 <attribute name="OC_FARNELL" value="2452432"/>
-<attribute name="OC_FARNELL_ALTERNATIV" value="9689621"/>
+<attribute name="OC_FARNELL_ALTERNATIVE" value="9689621"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="resistor" deviceset="C-EU" device="C0603" value="100n">
-<attribute name="MF" value="KEMET"/>
-<attribute name="MPN" value="C0603C104K8RACTU"/>
-<attribute name="OC_FARNELL" value="2112833"/>
-<attribute name="PARTNO" value="ECHU-16-100N"/>
-</part>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="120R">
 <attribute name="MF" value="TE CONNECTIVITY"/>
 <attribute name="MPN" value="CRGH1206F120R"/>
@@ -18497,6 +18491,7 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <attribute name="OC_FARNELL" value="1757123"/>
 </part>
 <part name="X1" library="con-wago_236" deviceset="236-406/000-023" device="" value="236-406/000-023">
+<attribute name="DATASHEETURL" value="WAGO236_Connector Banana Pro Power SATA-WAGO236-402_WAGO236-403_WAGO236-404#WAG.pdf"/>
 <attribute name="MF" value="WAGO"/>
 <attribute name="MPN" value="236-406"/>
 <attribute name="OC_FARNELL" value="1283529"/>
@@ -18608,7 +18603,7 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <attribute name="MPN" value="RC0603FR-071KL."/>
 <attribute name="OC_FARNELL" value="9238484"/>
 </part>
-<part name="D5" library="Deckelplatine" deviceset="DIODE-" device="SOD523">
+<part name="D5" library="Deckelplatine" deviceset="DIODE-" device="SOD523" value=" MM5Z3V3">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="MM5Z3V3"/>
 <attribute name="OC_FARNELL" value="2454004"/>
@@ -18618,13 +18613,19 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <attribute name="MPN" value="RC0603FR-071KL."/>
 <attribute name="OC_FARNELL" value="9238484"/>
 </part>
-<part name="D6" library="Deckelplatine" deviceset="DIODE-" device="SOD523">
+<part name="D6" library="Deckelplatine" deviceset="DIODE-" device="SOD523" value=" MM5Z3V3">
 <attribute name="MF" value="FAIRCHILD SEMICONDUCTOR"/>
 <attribute name="MPN" value="MM5Z3V3"/>
 <attribute name="OC_FARNELL" value="2454004"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="C3" library="resistor" deviceset="C-EU" device="C0603" value="0.1uF">
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C104K8RACTU"/>
+<attribute name="OC_FARNELL" value="2112833"/>
+<attribute name="PARTNO" value="SMD TAN.0,1/35"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -18665,21 +18666,14 @@ des Banana Pro!</text>
 <attribute name="OC_FARNELL" x="35.56" y="83.82" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="JP3" gate="A" x="337.82" y="101.6">
-<attribute name="OC_FARNELL_ALTERNATIV" x="337.82" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="OC_FARNELL_ALTERNATIVE" x="337.82" y="101.6" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="337.82" y="101.6" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="337.82" y="101.6" size="1.778" layer="96" display="off"/>
 <attribute name="DNP" x="337.82" y="101.6" size="1.778" layer="96" display="off"/>
 <attribute name="OC_FARNELL" x="337.82" y="101.6" size="1.27" layer="96" display="off"/>
 </instance>
-<instance part="GND4" gate="1" x="123.1646" y="82.0166" smashed="yes">
-<attribute name="VALUE" x="120.6246" y="79.4766" size="1.778" layer="96"/>
-</instance>
-<instance part="C3" gate="G$1" x="118.0846" y="94.7166" smashed="yes" rot="MR0">
-<attribute name="NAME" x="116.5606" y="95.0976" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="116.5606" y="90.0176" size="1.778" layer="96" rot="MR0"/>
-<attribute name="OC_FARNELL" x="118.0846" y="94.7166" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="118.0846" y="94.7166" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="118.0846" y="94.7166" size="1.778" layer="96" display="off"/>
+<instance part="GND4" gate="1" x="124.46" y="78.74" smashed="yes">
+<attribute name="VALUE" x="121.92" y="76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="191.7446" y="84.5566" smashed="yes">
 <attribute name="NAME" x="190.4746" y="83.058" size="1.778" layer="95" rot="R180"/>
@@ -18693,7 +18687,7 @@ des Banana Pro!</text>
 <attribute name="NAME" x="151.1046" y="106.1466" size="1.778" layer="95"/>
 <attribute name="VALUE" x="151.1046" y="76.9366" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="P" x="123.1646" y="94.7166"/>
+<instance part="IC1" gate="P" x="124.46" y="93.98"/>
 <instance part="JP2" gate="A" x="181.5846" y="82.0166" smashed="yes" rot="R180">
 <attribute name="NAME" x="177.7746" y="76.6826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.8696" y="82.0166" size="1.778" layer="96" rot="R270"/>
@@ -18959,6 +18953,7 @@ des Banana Pro!</text>
 <attribute name="OC_FARNELL" x="38.1" y="220.98" size="1.27" layer="96" display="off"/>
 <attribute name="MF" x="38.1" y="220.98" size="1.27" layer="96" display="off"/>
 <attribute name="MPN" x="38.1" y="220.98" size="1.27" layer="96" display="off"/>
+<attribute name="DATASHEETURL" x="38.1" y="220.98" size="1.27" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="X2" gate="G$1" x="38.1" y="142.24" rot="MR0">
 <attribute name="OC_FARNELL" x="38.1" y="142.24" size="1.27" layer="96" display="off"/>
@@ -19095,6 +19090,13 @@ des Banana Pro!</text>
 <instance part="GND12" gate="1" x="93.98" y="137.16" smashed="yes">
 <attribute name="VALUE" x="91.44" y="134.62" size="1.778" layer="96"/>
 </instance>
+<instance part="C3" gate="G$1" x="116.84" y="93.98" smashed="yes" rot="MR0">
+<attribute name="NAME" x="115.316" y="94.361" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="115.316" y="89.281" size="1.778" layer="96" rot="MR0"/>
+<attribute name="OC_FARNELL" x="116.84" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19119,11 +19121,11 @@ des Banana Pro!</text>
 <segment>
 <pinref part="IC1" gate="P" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="123.1646" y1="87.0966" x2="123.1646" y2="84.5566" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="86.36" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="118.0846" y1="89.6366" x2="118.0846" y2="87.0966" width="0.1524" layer="91"/>
-<wire x1="118.0846" y1="87.0966" x2="123.1646" y2="87.0966" width="0.1524" layer="91"/>
-<junction x="123.1646" y="87.0966"/>
+<wire x1="116.84" y1="88.9" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<junction x="124.46" y="86.36"/>
 </segment>
 <segment>
 <wire x1="172.72" y1="210.82" x2="205.74" y2="210.82" width="0.1524" layer="91"/>
@@ -19381,12 +19383,12 @@ des Banana Pro!</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="VCC"/>
+<wire x1="124.46" y1="101.6" x2="124.46" y2="107.9246" width="0.1524" layer="91"/>
+<label x="124.46" y="107.9246" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="118.0846" y1="97.2566" x2="118.0846" y2="102.3366" width="0.1524" layer="91"/>
-<wire x1="118.0846" y1="102.3366" x2="123.1646" y2="102.3366" width="0.1524" layer="91"/>
-<wire x1="123.1646" y1="102.3366" x2="123.1646" y2="104.8766" width="0.1524" layer="91"/>
-<junction x="123.1646" y="102.3366"/>
-<label x="123.1646" y="104.8766" size="1.27" layer="95" xref="yes"/>
+<wire x1="116.84" y1="96.52" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<junction x="124.46" y="101.6"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="P" pin="VCC"/>
@@ -20386,7 +20388,6 @@ des Banana Pro!</text>
 </sheets>
 <errors>
 <approved hash="104,1,154.94,233.68,U1,IN,N$4,,,"/>
-<approved hash="113,1,36.7877,83.9512,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

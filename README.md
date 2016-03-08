@@ -33,22 +33,22 @@ Format der CSV Datei für den Import:
 
 
 #Produktionsdaten
-## Boardlayout Dateien
+## Dokumentation Boardlayout Dateien
 
 Einige der wichtigsten Ebenen (Drill, Solder, Paste) wurden einzeln zusammen
-mit der "Document" Ebene (Layer 48) als PDF gedruckt.
+mit der "Document" Ebene (Layer 48) als PDF gedruckt (Siehe Script generate_documentaiont.scr).
 Dieses PDF kann mit dem Ghostscript tool `gs` in ein PDF gewandelt werden.
 
 ```
 cd doc
 
-gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=Bodenplatine.pdf \
-"Bodenplatine Dimensions.pdf" \
-"Bodenplatine Placement TOP.pdf" \
-"Bodenplatine PCB: TOP Layer.pdf" \
-"Bodenplatine PCB: BOTTOM Layer.pdf" \
-"Bodenplatine TOP Paste.pdf" \
-"Bodenplatine TOP Solder Mask.pdf" \
-"Bodenplatine Drill Drawing.pdf"
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=Deckelplatine.pdf \
+Deckelplatine-DIMENSIONS.pdf \
+Deckelplatine-BOM.pdf \
+Deckelplatine-Placement_TOP.pdf \
+Deckelplatine-TOP.pdf \
+Deckelplatine-BOTTOM.pdf \
+Deckelplatine-BOTTOM-Solder-Mask.pdf \
+Deckelplatine-TOP-Paste-Mask.pdf \
+Deckelplatine-Drill-Drawing.pdf \
 ```
-
