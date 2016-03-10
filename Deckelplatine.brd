@@ -55,8 +55,8 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -226,6 +226,8 @@
 <wire x1="1.27" y1="59.69" x2="6.35" y2="59.69" width="0.0635" layer="21"/>
 <wire x1="1.27" y1="49.53" x2="6.35" y2="49.53" width="0.0635" layer="21"/>
 <wire x1="1.27" y1="38.1" x2="6.35" y2="38.1" width="0.0635" layer="21"/>
+<text x="22.86" y="52.07" size="5.08" layer="1" font="vector" ratio="15">TOP</text>
+<text x="31.75" y="52.07" size="5.08" layer="16" font="vector" ratio="15" rot="MR0">TOP</text>
 </plain>
 <libraries>
 <library name="rcl">
