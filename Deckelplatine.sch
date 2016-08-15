@@ -18161,7 +18161,7 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <attribute name="AUTHOR" value="Stefan Müller"/>
 <attribute name="DATABASE" value="/home/smueller/eagle/_parts-database.txt.csv"/>
 <attribute name="PROJEKTNAME" value="xMZ-Mod-Touch-Deckelplatine"/>
-<attribute name="VERSION" value="0.9.5"/>
+<attribute name="VERSION" value="1.0.0"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -18196,6 +18196,7 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <attribute name="MF" value="MAXIM INTEGRATED PRODUCTS"/>
 <attribute name="MPN" value="MAX1487EESA+."/>
 <attribute name="OC_FARNELL" value="1593310"/>
+<attribute name="OC_FARNELL_ALTERNATIVE" value="8452210"/>
 <attribute name="PARTNO" value="MAX481CSA"/>
 </part>
 <part name="JP2" library="jumper" deviceset="JP1E" device="" value="''">
@@ -18511,11 +18512,13 @@ diameter 3.3 mm, vertical, grid 10.16 mm</description>
 <part name="F1" library="fuse-littlefuse" deviceset="01110005MR" device="" value="2AT">
 <attribute name="MF" value="LITTELFUSE"/>
 <attribute name="MPN" value="01110005MR"/>
+<attribute name="OC_FARNELL" value="2413914"/>
 </part>
 <part name="U$1" library="xMZ-Mod-Touch-Bodenplatine" deviceset="LOGO_RA-GAS" device=""/>
 <part name="F2" library="fuse-littlefuse" deviceset="01110005MR" device="" value="2AT">
 <attribute name="MF" value="LITTELFUSE"/>
 <attribute name="MPN" value="01110005MR"/>
+<attribute name="OC_FARNELL" value="2413914"/>
 </part>
 <part name="D1" library="diode" deviceset="DIODE-" device="MELF-MLL41" value="LL4005G">
 <attribute name="MF" value="TAIWAN SEMICONDUCTOR"/>
@@ -18662,6 +18665,7 @@ Das Schaltnetzteil für die Banana Pro und Monitor Spannungsversorgung kann bis 
 <instance part="IC1" gate="G$1" x="161.2646" y="92.1766" smashed="yes">
 <attribute name="NAME" x="151.1046" y="106.1466" size="1.778" layer="95"/>
 <attribute name="VALUE" x="151.1046" y="76.9366" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL_ALTERNATIVE" x="161.2646" y="92.1766" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="P" x="124.46" y="93.98"/>
 <instance part="JP2" gate="A" x="181.5846" y="82.0166" smashed="yes" rot="R180">

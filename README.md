@@ -42,9 +42,7 @@ Dieses PDF kann mit dem Ghostscript tool `gs` in ein PDF gewandelt werden.
 ```
 cd doc
 
-gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=Deckelplatine.pdf \
-Deckelplatine-DIMENSIONS.pdf \
-Deckelplatine-BOM.pdf \
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=Deckelplatine-v1.0.0.pdf \
 Deckelplatine-Placement_TOP.pdf \
 Deckelplatine-TOP.pdf \
 Deckelplatine-BOTTOM.pdf \
